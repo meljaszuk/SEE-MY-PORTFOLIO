@@ -1,0 +1,87 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="portfolio-2.html"><i class="lnr lnr-chevron-left"></i></a>
+                <a class="ajax-page-load" href="portfolio-4.html"><i class="lnr lnr-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Responsive Website - Bang & Olufsen | HTML & SASS</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-md-7 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="images/portfolio/full/bang-olufsen-1.jpg" alt="Bang & Olufsen - Responsive Website" />
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/full/bang-olufsen-2.jpg" alt="Bang & Olufsen - Responsive Website" />
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/full/bang-olufsen-3.jpg" alt="Bang & Olufsen - Responsive Website" />
+                    </div>
+                </div>
+                                
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-5 col-md-5 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-globe"></i><a href="https://github.com/meljaszuk/Responsive-Website-BangOlufsen" target="_blank">GitHub</a></p></li>
+
+                        <li><p><i class="fa fa-globe"></i><a href="https://meljaszuk.github.io/Responsive-Website-BangOlufsen/" target="_blank">Demo</a></p></li>
+
+                        <li><p><i class="fa fa-globe"></i><a href="https://www.figma.com/file/DtkQmQ797hk0nI4KfMi2Uq/BOSE-New-Version?type=design&node-id=6703-88&t=L7eKz5YKLN0m5WxR-0" target="_blank">Figma</a></p></li>
+
+                        <li><p><i class="fa fa-calendar"></i> January 2024</p></li>
+                    </ul>
+
+                    <p class="text-justify">
+                        I undertook the challenge of developing the frontend for the Bang & Olufsen landing page, a distinguished audio brand. The task involved translating a Figma design into a functional and visually attractive website that reflects the premium quality of Bang & Olufsen's products.
+                        <a href="https://github.com/meljaszuk/Responsive-Website-BangOlufsen/blob/main/README.md" target="_blank">[ Read more >> ]</a>
+                    </p>
+                <!-- /Project Description -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>HTML</a></li>
+                            <li><a>SASS</a></li>                            
+                        </ul>
+                    </div>
+                    <!-- /Technology -->
+                    
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
