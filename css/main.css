@@ -2880,7 +2880,7 @@ blockquote p {
     display: inline-block;
     float: left;
     color: #222;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 600;
     font-family: Poppins, Helvetica, sans-serif;
     margin: 0;
@@ -3528,3 +3528,4 @@ blockquote p {
 .skills-modified {
   padding-bottom: 10px;
 }
+
